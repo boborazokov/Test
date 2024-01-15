@@ -185,9 +185,7 @@ const questions = [
             "Model of relation"
           ],
           answer: "Thing in real world"
-        }
-        const questions = [
-            // ... (ваш текущий список вопросов)
+        },
             {
               question: "Which of the following is not a normal form?",
               options: ["5 NF", "3 NF", "7 NF", "9 NF"],
@@ -199,6 +197,6 @@ const questions = [
               answer: "3 NF"
             }
           ];
-          module.exports = questions;    
+           module.exports = questions;    
       
   
