@@ -62,6 +62,34 @@ const questions = [
        "Derived attribute"],
       answer: "Derived attribute"
     },
+    {
+      question: "Which of the following is not a Storage Manager Component?",
+      options: [
+        "Transaction Manager",
+       "Logical Manager", 
+       "File Manager", 
+       "Buffer Manager"],
+      answer: "Buffer Manager"
+    },
+    {
+      question: "Data Manipulation Language enables users to",
+      options: [
+        "Retrieval of information stored in database",
+       "Insertion of new information into the database", 
+       "Deletion of information from the database", 
+       "All the options are correct"],
+      answer: "All the options are correct"
+    },
+    {
+      question: "Which of the following is not an Schema?",
+      options: [
+        "Logical Schema",
+       "Physical Schema", 
+       "Database Schema", 
+       "Critical Schema"],
+      answer: "Critical Schema"
+    },
+    
     // Дополнительные вопросы и ответы здесь...
         // Предыдущие вопросы и ответы...
         {
