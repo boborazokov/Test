@@ -54,6 +54,14 @@ const questions = [
       options: ["Tables", "Attributes", "Database", "Entity Sets"],
       answer: "Entity Sets"
     },
+    {
+      question: "The attribute name could be structured as an attribute consisting of first name middle initial and last name. This  type of attribute is called",
+      options: ["Simple attribute",
+       "Composite attribute", 
+       "Multivalued attribute", 
+       "Derived attribute"],
+      answer: "Derived attribute"
+    },
     // Дополнительные вопросы и ответы здесь...
         // Предыдущие вопросы и ответы...
         {
