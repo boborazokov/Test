@@ -27,7 +27,7 @@ const questions = [
         "All Options are correct",
         "Collection of interrelated data"
       ],
-      answer: "All Options are correct"
+      answer: "Collection of interrelated data"
     },
     {
       question: "An ________ is a set of entities of the same type that share the same properties, or attributes.",
