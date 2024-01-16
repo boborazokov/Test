@@ -27,12 +27,13 @@ const questions = [
         "All Options are correct",
         "Collection of interrelated data"
       ],
-      answer: "Collection of interrelated data"
+      answer: 
+      "Collection of programs to access data"
     },
     {
       question: "An ________ is a set of entities of the same type that share the same properties, or attributes.",
       options: ["Entity set", "Attribute set", "Relation set", "Entity model"],
-      answer: "Relation set"
+      answer: "Entity set"
     },
     {
       question: "Which of the following is not a level of data abstraction?",
@@ -120,7 +121,7 @@ const questions = [
             "All of the options",
             "Collection of programs to access data"
           ],
-          answer: "All of the options"
+          answer: "Collection of programs to access data"
         },
         {
           question: "Which of the following is not a level of data abstraction?",
@@ -135,7 +136,7 @@ const questions = [
             "Thing in real world",
             "Model of relation"
           ],
-          answer: "Object of relation"
+          answer: "Thing in real world"
         },
         {
           question: "Disadvantages of File systems to store data is:",
@@ -150,7 +151,7 @@ const questions = [
         {
           question: "The descriptive property possessed by each entity set is _________",
           options: ["Entity", "Attribute", "Relation", "Model"],
-          answer: "Relation"
+          answer: "Attribute"
         },
         {
           question: "Which of the following are fundamental operations in relational algebra?",
@@ -165,7 +166,7 @@ const questions = [
         {
           question: "Which of the following is not a normal form?",
           options: ["5 NF", "3 NF", "7 NF", "9 NF"],
-          answer: "9 NF"
+          answer: "7 NF"
         },
         {
           question: "An ________ is a set of entities of the same type that share the same properties, or attributes.",
@@ -190,7 +191,7 @@ const questions = [
         {
           question: "Which of the following can be a multivalued attribute?",
           options: ["Phone_number", "Name", "Date_of_birth", "All of the mentioned"],
-          answer: "All of the mentioned"
+          answer: "Phone_number"
         },
         {
           question: "Which of the following is a single valued attribute",
@@ -212,26 +213,9 @@ const questions = [
           options: ["DML(Data Manipulation Language)", "DDL(Data Definition Language)", "Query", "Relational Schema"],
           answer: "DML(Data Manipulation Language)"
         },
-        {
-          question: "Entity is a _________",
-          options: [
-            "Object of relation",
-            "Present working model",
-            "Thing in real world",
-            "Model of relation"
-          ],
-          answer: "Thing in real world"
-        },
-            {
-              question: "Which of the following is not a normal form?",
-              options: ["5 NF", "3 NF", "7 NF", "9 NF"],
-              answer: "9 NF"
-            },
-            {
-              question: "In which normal form transitive dependency is removed?",
-              options: ["1 NF", "2 NF", "3 NF", "5 NF"],
-              answer: "3 NF"
-            }
+        
+            
+            
           ];
            module.exports = questions;    
       
