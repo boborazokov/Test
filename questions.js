@@ -136,7 +136,7 @@ const questions = [
             "Thing in real world",
             "Model of relation"
           ],
-          answer: "Thing in real world"
+          answer: "Object of relation"
         },
         {
           question: "Disadvantages of File systems to store data is:",
