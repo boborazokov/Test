@@ -70,7 +70,7 @@ const questions = [
        "Logical Manager", 
        "File Manager", 
        "Buffer Manager"],
-      answer: "Buffer Manager"
+      answer: "Logical Manager"
     },
     {
       question: "Data Manipulation Language enables users to",
