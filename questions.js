@@ -1,202 +1,108 @@
 const questions = [
-    {
-      question: "Where is metadata stored in MySQL?",
-      options: [
-        "In the MySQL database meta",
-        "In the MySQL database metasql",
-        "In the MySQL database metadata",
-        "In the MySQL database mysql"
-      ],
-      answer: "In the MySQL database mysql"
-    },
-    {
-      question: "What MySQL property is used to create a surrogate key in MySQL?",
-      options: ["IDENTICAL", "UNIQUE", "AUTO_INCREMENT", "SEQUENCE"],
-      answer: "AUTO_INCREMENT"
-    },
-    {
-      question: "A relational database consists of a collection of",
-      options: ["Keys", "Records", "Tables", "Fields"],
-      answer: "Tables"
-    },
-    {
-      question: "A Database Management System (DBMS) is:",
-      options: [
-        "Collection of data describing one particular enterprise",
-        "Collection of programs to access data",
-        "All Options are correct",
-        "Collection of interrelated data"
-      ],
-      answer: "All Options are correct"
-    },
-    {
-      question: "An ________ is a set of entities of the same type that share the same properties, or attributes.",
-      options: ["Entity set", "Attribute set", "Relation set", "Entity model"],
-      answer: "Relation set"
-    },
-    {
-      question: "Which of the following is not a level of data abstraction?",
-      options: ["View Level", "Physical Level", "Logical Level", "Critical Level"],
-      answer: "Critical Level"
-    },
-    {
-      question: "Disadvantages of File systems to store data is:",
-      options: [
-        "Data isolation",
-        "Data redundancy and inconsistency",
-        "Difficulty in accessing data",
-        "All options are correct"
-      ],
-      answer: "All options are correct"
-    },
-    {
-      question: "In an Entity Relationship Diagram Rectangles represents",
-      options: ["Tables", "Attributes", "Database", "Entity Sets"],
-      answer: "Entity Sets"
-    },
-    // Дополнительные вопросы и ответы здесь...
-        // Предыдущие вопросы и ответы...
-        {
-          question: "The attribute AGE is calculated from DATE_OF_BIRTH. The attribute AGE is",
-          options: ["Single valued", "Multi valued", "Composite", "Derived"],
-          answer: "Derived"
-        },
-        {
-          question: "Which of the following is a Data Model?",
-          options: [
-            "Entity Relationship Model",
-            "Object Based Data Model",
-            "All of the options are correct",
-            "Relational Data Model"
-          ],
-          answer: "All of the options are correct"
-        },
-        {
-          question: "Which of the following is the acid property for a transaction?",
-          options: ["Aggregation", "Atomicity", "Abstraction", "Augmentation"],
-          answer: "Abstraction"
-        },
-        {
-          question: "A Database Management System (DBMS) is",
-          options: [
-            "Collection of interrelated data",
-            "Collection of data describing one particular enterprise",
-            "All of the options",
-            "Collection of programs to access data"
-          ],
-          answer: "All of the options"
-        },
-        {
-          question: "Which of the following is not a level of data abstraction?",
-          options: ["Physical Level", "View Level", "Critical Level", "Logical Level"],
-          answer: "Critical Level"
-        },
-        {
-          question: "Entity is a _________",
-          options: [
-            "Object of relation",
-            "Present working model",
-            "Thing in real world",
-            "Model of relation"
-          ],
-          answer: "Object of relation"
-        },
-        {
-          question: "Disadvantages of File systems to store data is:",
-          options: [
-            "Data redundancy and inconsistency",
-            "Data isolation",
-            "All of the options",
-            "Difficulty in accessing data"
-          ],
-          answer: "All of the options"
-        },
-        {
-          question: "The descriptive property possessed by each entity set is _________",
-          options: ["Entity", "Attribute", "Relation", "Model"],
-          answer: "Relation"
-        },
-        {
-          question: "Which of the following are fundamental operations in relational algebra?",
-          options: ["Select and project", "Product and Cartesian Product", "Union and Set Difference", "All of the above"],
-          answer: "All of the above"
-        },
-        {
-          question: "Select, project and rename operation are called as",
-          options: ["Binary Operations", "Ternary Operations", "Unary Operations", "None of the above"],
-          answer: "Unary Operations"
-        },
-        {
-          question: "Which of the following is not a normal form?",
-          options: ["5 NF", "3 NF", "7 NF", "9 NF"],
-          answer: "9 NF"
-        },
-        {
-          question: "An ________ is a set of entities of the same type that share the same properties, or attributes.",
-          options: ["Entity set", "Attribute set", "Relation set", "Entity model"],
-          answer: "Entity set"
-        },
-        {
-          question: "In which normal form transitive dependency is removed?",
-          options: ["1 NF", "2 NF", "3 NF", "5 NF"],
-          answer: "3 NF"
-        },
-        {
-          question: "The function that an entity plays in a relationship is called that entity’s _____________",
-          options: ["Participation", "Position", "Role", "Instance"],
-          answer: "Role"
-        },
-        {
-          question: "The attribute name could be structured as an attribute consisting of first name, middle initial, and last name. This type of attribute is called",
-          options: ["Simple attribute", "Composite attribute", "Multivalued attribute", "Derived attribute"],
-          answer: "Composite attribute"
-        },
-        {
-          question: "Which of the following can be a multivalued attribute?",
-          options: ["Phone_number", "Name", "Date_of_birth", "All of the mentioned"],
-          answer: "All of the mentioned"
-        },
-        {
-          question: "Which of the following is a single valued attribute",
-          options: ["Register_number", "Address", "SUBJECT_TAKEN", "Reference"],
-          answer: "Register_number"
-        },
-        {
-          question: "In a relation between the entities the type and condition of the relation should be specified. That is called as ______attribute.",
-          options: ["Descriptive", "Derived", "Recursive", "Relative"],
-          answer: "Descriptive"
-        },
-        {
-          question: "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",
-          options: ["DML(Data Manipulation Language)", "Query", "Relational Schema", "DDL(Data Definition Language)"],
-          answer: "DDL(Data Definition Language)"
-        },
-        {
-          question: "Which of the following provides the ability to query information from the database and insert tuples into, delete tuples from, and modify tuples in the database?",
-          options: ["DML(Data Manipulation Language)", "DDL(Data Definition Language)", "Query", "Relational Schema"],
-          answer: "DML(Data Manipulation Language)"
-        },
-        {
-          question: "Entity is a _________",
-          options: [
-            "Object of relation",
-            "Present working model",
-            "Thing in real world",
-            "Model of relation"
-          ],
-          answer: "Thing in real world"
-        },
-            {
-              question: "Which of the following is not a normal form?",
-              options: ["5 NF", "3 NF", "7 NF", "9 NF"],
-              answer: "9 NF"
-            },
-            {
-              question: "In which normal form transitive dependency is removed?",
-              options: ["1 NF", "2 NF", "3 NF", "5 NF"],
-              answer: "3 NF"
-            }
-          ];
-           module.exports = questions;    
-      
-  
+  {
+    question: "What layer of the OSI model is responsible for error detection and correction?",
+    options: ["Physical", "Data Link", "Transport", "Presentation"],
+    answer: "B"
+  },
+  {
+    question: "Which layer is responsible for logical addressing, such as IP addresses?",
+    options: ["Network", "Data Link", "Presentation", "Transport"],
+    answer: "A"
+  },
+  {
+    question: "In the OSI model, where does routing occur?",
+    options: ["Network", "Transport", "Data Link", "Physical"],
+    answer: "A"
+  },
+  {
+    question: "At which OSI layer does encryption and decryption take place?",
+    options: ["Session", "Presentation", "Transport", "Data Link"],
+    answer: "B"
+  },
+  {
+    question: "Which layer is responsible for flow control and error recovery?",
+    options: ["Transport", "Network", "Data Link", "Physical"],
+    answer: "A"
+  },
+  {
+    question: "What is the primary function of the OSI model's Data Link layer?",
+    options: ["Error detection and correction", "Physical addressing", "End-to-end communication", "Routing"],
+    answer: "B"
+  },
+  {
+    question: "In the OSI model, what layer deals with end-to-end communication between applications?",
+    options: ["Presentation", "Application", "Session", "Transport"],
+    answer: "B"
+  },
+  {
+    question: "Where does the MAC address operate in the OSI model?",
+    options: ["Network", "Data Link", "Transport", "Physical"],
+    answer: "B"
+  },
+  {
+    question: "Which layer is responsible for creating, maintaining, and terminating sessions?",
+    options: ["Presentation", "Session", "Transport", "Data Link"],
+    answer: "B"
+  },
+  {
+    question: "At which OSI layer does framing occur?",
+    options: ["Network", "Presentation", "Data Link", "Physical"],
+    answer: "C"
+  },
+  // Continue adding more questions...
+
+// ... (Previous questions)
+
+// Continue adding more questions...
+{
+  question: "What type of delay occurs when a router examines the header of a packet?",
+  options: ["Transmission delay", "Processing delay", "Queuing delay", "Propagation delay"],
+  answer: "B"
+},
+{
+  question: "Which delay is associated with waiting time in a router's buffer?",
+  options: ["Transmission delay", "Propagation delay", "Queuing delay", "Processing delay"],
+  answer: "C"
+},
+{
+  question: "Delay caused by the time it takes for a signal to travel from the source to the destination is known as:",
+  options: ["Transmission delay", "Propagation delay", "Queuing delay", "Processing delay"],
+  answer: "B"
+},
+{
+  question: "What delay is introduced due to the time required to convert a packet into the appropriate frame for the transmission medium?",
+  options: ["Transmission delay", "Propagation delay", "Queuing delay", "Processing delay"],
+  answer: "A"
+},
+{
+  question: "Which switching type is associated with the use of MAC addresses to make forwarding decisions?",
+  options: ["Circuit Switching", "Datagram Switching", "Message Switching", "Packet Switching"],
+  answer: "D"
+},
+{
+  question: "In packet switching, what happens if a network node receives more packets than it can transmit immediately?",
+  options: ["Discard excess packets", "Queue the packets", "Route the packets back", "Fragment the packets"],
+  answer: "B"
+},
+{
+  question: "Which switching type establishes a dedicated communication path before data transfer?",
+  options: ["Circuit Switching", "Datagram Switching", "Message Switching", "Packet Switching"],
+  answer: "A"
+},
+{
+  question: "What is a characteristic of Datagram Switching?",
+  options: ["Fixed path for communication", "No connection setup phase", "Predefined route for packets", "Virtual circuit establishment"],
+  answer: "B"
+},
+{
+  question: "Which switching type is connectionless and suitable for bursty data traffic?",
+  options: ["Datagram Switching", "Circuit Switching", "Message Switching", "Packet Switching"],
+  answer: "A"
+},
+{
+  question: "What is a disadvantage of Circuit Switching compared to Packet Switching?",
+  options: ["Efficient use of bandwidth", "Variable delay", "Resource reservation", "No connection setup time"],
+  answer: "D"
+},
+// Continue adding more questions...
+]
